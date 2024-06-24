@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Percentage number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3eb4dc24-bcbb-4311-b186-dcd08c58c1e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b2484fb-e75e-4df6-8064-78f520632fb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>8b2484fb-e75e-4df6-8064-78f520632fb4</id>
+      <masked>false</masked>
+      <name>firstOperand</name>
+   </variable>
+</TestCaseEntity>
