@@ -63,6 +63,11 @@ public class ClickNumber {
 		WebUI.click(findTestObject('Page_React Calculator/button_percentage'))
 	}
 
+	@Keyword
+	def clickAC() {
+		WebUI.click(findTestObject('Page_React Calculator/button_AC'));
+	}
+
 	def getDigits(String number) {
 		return number.toCharArray()
 	}
