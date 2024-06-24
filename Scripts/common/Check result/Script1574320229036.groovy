@@ -15,4 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_React Calculator/number_input'), "${result}")
+WebUI.verifyElementText(findTestObject('Object Repository/Page_React Calculator/number_input'), "$result")
+

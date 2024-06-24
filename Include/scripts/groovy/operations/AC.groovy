@@ -48,6 +48,6 @@ class AC {
 
 	@When("click_ac")
 	def click_AC() {
-		WebUI.callTestCase(findTestCase("Test Cases/common/Click AC"), [], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase("Test Cases/common/Click AC"), null, FailureHandling.STOP_ON_FAILURE)
 	}
 }
